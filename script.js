@@ -81,8 +81,9 @@ setInterval(settimer, min);
 
 function checkmin()
 {
-  var n+=1;
-  console.log(n);
+  var n=1;
+  var x=1+n; 
+  console.log(x);
 }
 setInterval(checkmin, 1000);
 
