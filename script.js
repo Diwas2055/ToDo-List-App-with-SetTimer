@@ -72,10 +72,10 @@ function settimer()
   
   // console.log("clear");
 }
-
+var min=1*60*1000;
 var hr=1* 60 * 60 *1000;
 // console.log(hr);
-setInterval(settimer, hr);
+setInterval(settimer, min);
 
 // delete all tasks function
 deleteAllBtn.onclick = ()=>{
