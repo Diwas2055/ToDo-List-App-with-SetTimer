@@ -65,9 +65,11 @@ function settimer()
 {
   if (confirm("Cleared Local Storage")) {
     localStorage.clear();
+    window.location.href
     alert('Successfully Local Storage is Cleared');
   } else {
     return false;
+    window.location.href
   }
   
   // console.log("clear");
@@ -76,6 +78,13 @@ var min=1*60*1000;
 var hr=1* 60 * 60 *1000;
 // console.log(hr);
 setInterval(settimer, min);
+
+function checkmin()
+{
+  var n+=1;
+  console.log(n);
+}
+setInterval(checkmin, 1000);
 
 // delete all tasks function
 deleteAllBtn.onclick = ()=>{
