@@ -83,7 +83,7 @@ function checkmin()
 {
   var n=n+1;
   var x=n;
-  console.log('Seconds' + x);
+  console.log(x);
 }
 setInterval(checkmin, 1000);
 
