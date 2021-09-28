@@ -64,9 +64,9 @@ function deleteTask(index){
 function settimer()
 {
   if (confirm("Cleared Local Storage")) {
-    localStorage.clear();
-    window.location.href=window.location +""
+    localStorage.clear(); 
     alert('Successfully Local Storage is Cleared');
+       window.location.href=window.location +""
   } else {
     return false;
     window.location.href=window.location +""
