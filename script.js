@@ -65,11 +65,11 @@ function settimer()
 {
   if (confirm("Cleared Local Storage")) {
     localStorage.clear();
-    window.location.href
+    window.location.href=window.location +""
     alert('Successfully Local Storage is Cleared');
   } else {
     return false;
-    window.location.href
+    window.location.href=window.location +""
   }
   
   // console.log("clear");
